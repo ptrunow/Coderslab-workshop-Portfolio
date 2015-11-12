@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ~~ Reset ~~ */
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+}
+a img {
+	border: none;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+/* ~~ REUSABLE ~~ */
+
+.hide  {
+	text-indent: -997;
+	height: 0px;
+}
+
+/* ~~ LINKI ~~ */
+a:link {
+	color:
+}
+a:visited {
+	color:
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+/* ~~ LAYOUT ~~*/
+
+html {
+	background: #fff;
+}
+body {
+	font-size: 0.75em; /* 12px */
+	font-family: "Myfiad Pro", Arial, Helvetica, sans-serif;
+	position: relative;
+}
+
+header {
+	overflow: hidden;
+	height: 110px;
+}
+
+header h1 {
+	background: url(../_img/logo1.png) no-repeat;
+	float: left;
+	height: 150px;
+	width: 390px;
+	text-indent: -999em;
+}
+
+<!-- NAVBAR -->
+
+.navbar-inverse {
+  background-color: #FFF;
+  border-color: #FFFFFF;
+}
+
+
+<!-- CAROUSEL -->
+#carousel-example-generic {
+	margin-top: 110px;
+}
+
+.carousel-inner {
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
