@@ -41,7 +41,7 @@ html {
 	background: #fff;
 }
 body {
-	font-size: 0.75em; /* 12px */
+	font-size: 1.5em; /* 12px */
 	font-family: "Myfiad Pro", Arial, Helvetica, sans-serif;
 	position: relative;
 }
@@ -59,22 +59,45 @@ header h1 {
 	text-indent: -999em;
 }
 
-<!-- NAVBAR -->
-
-.navbar-inverse {
-  background-color: #FFF;
-  border-color: #FFFFFF;
-}
-
-
 <!-- CAROUSEL -->
 #carousel-example-generic {
 	margin-top: 110px;
 }
 
 .carousel-inner {
-	margin-top: 10px;
+	margin-bottom: 50px;
 }
+
+
+
+<!-- CONTENT -->
+
+.alt1.padding #ofirmie{
+	padding-bottom: 70px;
+}
+
+#ofirmie p, #portfolio p, #kontakt p {
+	margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
